@@ -79,6 +79,9 @@ input::-webkit-inner-spin-button {
     border: none;
 }
 
+.botoes_link:hover{
+    background-color: rgba(228, 171, 0);
+}
 
 .esqueceu{
 
