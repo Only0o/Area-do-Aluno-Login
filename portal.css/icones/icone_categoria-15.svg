@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="ico_boleto" transform="translate(-486 -700)">
+    <path id="Caminho_2183" data-name="Caminho 2183" d="M2200.713-1619.8h-8" transform="translate(-1698.713 2342.22)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    <path id="Caminho_2185" data-name="Caminho 2185" d="M2192.713-1588.422h19" transform="translate(-1698.713 2316.422)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    <g id="Grupo_1" data-name="Grupo 1" transform="translate(-1.129 3.83)">
+      <path id="Caminho_2186" data-name="Caminho 2186" d="M3352.716-1526.907c-4.216-2.431-6.6,1.249-4.041,2.725s4.028,1.438,4.841,2.845-.322,5.608-5.944,2.366" transform="translate(-2839.623 2232.899)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <path id="Caminho_2188" data-name="Caminho 2188" d="M3349.975-1530.729v-1.5" transform="translate(-2839.256 2235.4)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <path id="Caminho_2189" data-name="Caminho 2189" d="M3349.975-1530.729v-1.5" transform="translate(-2839.256 2247.688)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+    <g id="Retângulo_1" data-name="Retângulo 1" transform="translate(486 700)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+      <rect width="35" height="35" stroke="none"/>
+      <rect x="1.5" y="1.5" width="32" height="32" fill="none"/>
+    </g>
+  </g>
+</svg>
