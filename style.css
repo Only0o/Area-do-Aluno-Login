@@ -45,15 +45,19 @@ input::-webkit-inner-spin-button {
 }
 
 .info{
+    display: flex;
+    align-items: center;
+    border-bottom: #575862 solid 1px;
     justify-content: center;
     background: transparent;
-    border-width: 0 0 0 1;
+    /* border-width: 0 0 0 1; */
     border-top: none;
     border-left: none;
     border-right: none;
     font-size: large;
     outline: 0;
     width: 600px;
+    color: #fff;
 }
 
 .botoes{
@@ -62,7 +66,7 @@ input::-webkit-inner-spin-button {
     flex-direction: row;
     justify-content: center;
     gap: 4em;
-    margin-top: 5em;
+    margin-top: 1em;
     
 }
 
