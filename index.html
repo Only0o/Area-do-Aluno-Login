@@ -1,53 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
     <title>Area do Aluno</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <header class="cabesalho">
-        
-        <img class="cabesalho_logo" src="portal.css/imagens/logo-negativo_1 (1).png" alt="logo do cruzeiro do sul com o texto Universidade cruzeiro do sul">
-        
+      <img
+        class="cabesalho_logo"
+        src="portal.css/imagens/logo-negativo_1 (1).png"
+        alt="logo do cruzeiro do sul com o texto Universidade cruzeiro do sul"
+      />
     </header>
-    
-    
-    <form class="entrada">
+<div class="entrada">
+    <input
+    type="number"
+    name="cpf_rgm"
+    class="info"
+    placeholder="Seu RGM ou CPF"
+  />
+  <br />
+  <br />
 
-        
-        <input type="number" name="cpf_rgm" class="info" placeholder="Seu RGM ou CPF">
-    <br>
-    <br>    
-        
-        <input type="password" name="senha" class="info" placeholder="Senha">
+  <input type="password" name="senha" class="info" placeholder="Senha" />
 
-        
-        
-        
-        <div class="botoes">
+</div>
+   
+    <div class="botoes">
+      <button class="botoes_link">Ambiente Virtual</button>
+      <button class="botoes_link" onclick="validar()">Área do Aluno</button>
+    </div>
 
-            <a href="https://area-do-aluno-home.vercel.app/"><button class="botoes_link">Ambiente Virtual</button></a>
-            <a href="https://area-do-aluno-home.vercel.app/"><button class="botoes_link">Área do Aluno</button></a>
-            
-          </div>
-    </form>
-    
     <div class="esqueceu">
+      <a class="esqueceu_texto" href=""
+        ><p>esqueceu ou deseja efetuar o reset da sua senha?</p></a
+      >
 
-        <a class="esqueceu_texto" href=""><p>esqueceu ou deseja efetuar o reset da sua senha?</p></a>
-
-        <a class="esqueceu_texto" href=""><p>esqueceu sua RGM</p></a>
-
+      <a class="esqueceu_texto" href=""><p>esqueceu sua RGM</p></a>
     </div>
 
     <footer class="rodape">
-
-        <img class="rodape_img" src="portal.css/imagens/cruzeiro-edu_negativo.png" alt="logo do cruzeiro do sul, escrito cruzeiro do sul educacional">
-    
+      <img
+        class="rodape_img"
+        src="portal.css/imagens/cruzeiro-edu_negativo.png"
+        alt="logo do cruzeiro do sul, escrito cruzeiro do sul educacional"
+      />
     </footer>
-</body>
+  </body>
 </html>
